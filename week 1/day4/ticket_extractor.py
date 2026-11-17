@@ -39,7 +39,7 @@ messages = [
 response = client.chat.completions.create(
     model=model,
     messages=messages,
-    temperature=0,  # 0 is recommended for deterministic data extraction
+    temperature=0, 
     response_format=response_format,
 )
 
